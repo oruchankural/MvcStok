@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>STOK PROJESI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="~/Template-FAQ/image/favicon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/Home/Index/">STOK</a>
+            </div>
+            <ul class="nav navbar-nav">
+
+                <li><a href="/Kategori/Index">Kategoriler</a></li>
+                <li><a href="/Urun/Index">Ürünler</a></li>
+                <li><a href="/Musteri/Index">Müşteriler</a></li>
+                <li><a href="/Satis/Index">Satışlar</a></li>
+                <li><a href="/Help/Index">Yardım</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+      @RenderBody()
+    </div>
+
+</body>
+<footer>
+
+    <div class="modal-footer">
+        <div style="background-color:#E5E4E2;">
+            <div class="modal-footer">
+                &copy; Copyright <strong><span><a href="https://www.linkedin.com/in/oru%C3%A7-han-kural-420683199/" target="_blank">Oruç Han Kural</a></span></strong>. All Rights Reserved
+            </div>
+</footer>
+</html>
+

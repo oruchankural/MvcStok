@@ -1,0 +1,173 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>Bootstrap FAQ Template | PrepBootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1> Yardım & Detaylar <small>Yardım Sayfası</small></h1>
+        </div>
+        <!-- Bootstrap FAQ - START -->
+        <div class="container">
+            <br />
+            <br />
+            <br />
+            <div class="alert alert-warning alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+               Bu alanda   <strong>StokProjesi</strong> ile ilgili yardım ve detaylandırma yapılmaktadır. Sorularınız ve eleştirileriniz için
+               iletişime geçebilirsiniz.
+            </div>
+            <br />
+            <div class="panel-group" id="accordion">
+                <div class="faqHeader">Genel Sorular</div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Giriş yapmak için üye olmak gerekiyor mu?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                          Üyelik işlemleri ve <strong>StokProjesi</strong> ni kullanmak için sistemde bir gereklilik bulunmamaktadır.
+                          Şuan için geçerli olan bir yetkilendirme sistemi bulunmamaktadır.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Kodları nereden indirebilirim ?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTen" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Asp.net projelerimi <a href="https://github.com/oruchankural" target="_blank">buradan</a> github hesabım üzerinden takip edebilirsiniz.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">Microsoft Visual Studoi & EntityFramework Sürümü</a>
+                        </h4>
+                    </div>
+                    <div id="collapseEleven" class="panel-collapse collapse">
+                        <div class="panel-body">
+                           Microsoft Visual Studio 2017 - EntityFramework 6.4.4
+                        </div>
+                    </div>
+                </div>
+                <div class="faqHeader">Kullanılan Kodlar & Framework </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Projenin temelini oluştururken hangi programlama dili kullanıldı?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Asp.net MVC altyapısında C# kullanılarak oluşturuldu. <strong>ASP.NET MVC5</strong>.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Projede hangi eklentiler kullanıldı?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <strong>Kullanılan Eklentiler :</strong>
+                            <ul>
+                                <li>EntityFramework</li>
+                                <li>PagedList</li>
+                                <li>Datatable Jquery</li>
+
+                         
+                              
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Front-end için neler kullanıldı ?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <strong>Html , Css , Javascript , Bootstrap Library , Datatable Jquery </strong>  kullanıldı.
+                            <br />
+                        </div>
+                    </div>
+                </div>
+              
+       
+                 
+                <div class="faqHeader">Veri Tabanı</div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Hangi veritabanı kullanıldı?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          Local bir veritabanı kullanıldı.<strong>Microsoft SQL Server Management 2018</strong>
+                          
+                        </div>
+                    </div>
+                </div>
+               
+        <style>
+
+            .faqHeader {
+                font-size: 27px;
+                margin: 20px;
+            }
+
+            .panel-heading [data-toggle="collapse"]:after {
+                font-family: 'Glyphicons Halflings';
+                content: "\e072"; /* "play" icon */
+                float: right;
+                color: #F58723;
+                font-size: 18px;
+                line-height: 22px;
+                /* rotate "play" icon from > (right arrow) to down arrow */
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                -ms-transform: rotate(-90deg);
+                -o-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+            }
+
+            .panel-heading [data-toggle="collapse"].collapsed:after {
+                /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+                -webkit-transform: rotate(90deg);
+                -moz-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                transform: rotate(90deg);
+                color: #454444;
+            }
+        </style>
+        <!-- Bootstrap FAQ - END -->
+    </div>
+</body>
+</html>
